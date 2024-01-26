@@ -43,7 +43,7 @@ const Hero = () => {
             <br />
 
           <div className="flex flex-col items-center gap-2 mx-auto space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-            <a href="#about" className="font-regular" style={textStyle}>
+            <a href="#about" className=" font-regular" style={textStyle}>
             <button
               type="sumbit"
               
@@ -54,10 +54,10 @@ const Hero = () => {
                 focus:ring-4 focus:outline-none focus:ring-gray-300 
                 rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2
               dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600
-              dark:focus:ring-gray-800 lg:w-80" style={textStyle}
+              dark:focus:ring-gray-800 w-80 lg:w-80" style={textStyle}
             >
            
-              Uhuy
+              Uh...huy
                 
             </button>
               </a>
