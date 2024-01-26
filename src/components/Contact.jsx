@@ -19,7 +19,7 @@ const Contact = () => {
             Got a technical issue? Want to send feedback about a beta feature?
             Need details about our Business plan? Let us know.
           </p>
-          <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+          <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 ">
             <button
               type="sumbit"
               className="text-gray-900
@@ -28,8 +28,8 @@ const Contact = () => {
                 focus:ring-4 focus:outline-none focus:ring-gray-300 
                 rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2
               dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600
-              dark:focus:ring-gray-800"
-              style={textStyle}
+              dark:focus:ring-gray-800 w-full"
+              style={textStyle} 
             >
               <div className="flex items-center justify-center flex-warp">
                 <svg
