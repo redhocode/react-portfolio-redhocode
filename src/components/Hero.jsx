@@ -33,7 +33,7 @@ const Hero = () => {
             className="mb-8 text-lg text-gray-800 lg:text-xl sm:px-16 lg:px-48"
             style={textStyle}
           >
-           Solving problems with algorithms, assisted from the stackofferlow community, dev.to, github, chatGPT and youtube.
+           Solving problems with algorithms, assisted from the community, documantion, stackofferlow, dev.to, github, chatgpt and youtube.
           </p>
           
            <hr />

@@ -3,8 +3,10 @@
 const Footer = () => {
   return (
     <>
+    <section id="footer">
+      <div className="container content-center justify-center mx-auto">
     <footer className="w-full p-8 bg-gray-800 rounded-md">
-  <div
+        <div
     className="flex flex-row flex-wrap items-center justify-center text-center bg-gray-800 gap-y-12 gap-x-12 ">
     
    {/* <div className="flex gap-4 text-white sm:justify-center">
@@ -32,6 +34,9 @@ const Footer = () => {
     © 2023 Redho Arifin
   </p>
 </footer>
+      </div>
+    </section>
+  
     </>
   )
 }
