@@ -13,14 +13,9 @@ function App() {
   return (
     <>
   
-      <div className="gap-4 mx-auto mt-24">
-
-     
-        
+      <div className="gap-4 mx-auto">
         <NavBar />
-
         <Hero />
-        
         <About/>
         <Hr/>
         <Portfolio/>
