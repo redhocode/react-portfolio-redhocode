@@ -52,7 +52,7 @@ const About = () => {
             xmlns="http://www.w3.org/2000/svg"
             width={400}
             height={400}
-            className="transition-all duration-300 cursor-pointer animate-spin filter grayscale hover:grayscale-0"
+            className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 animate-pulse" 
           >
             <path fill="#FF0000" d="M57.1,-57.4C72.9,-41.3,83.9,-20.7,85,1.1C86.1,22.9,77.4,45.8,61.6,61.4C45.8,77.1,22.9,85.5,0.4,85.2C-22.1,84.8,-44.2,75.5,-59.2,59.8C-74.3,44.2,-82.3,22.1,-82.4,-0.1C-82.4,-22.2,-74.6,-44.4,-59.5,-60.6C-44.4,-76.7,-22.2,-86.7,-0.8,-85.9C20.7,-85.1,41.3,-73.5,57.1,-57.4Z" transform="translate(100 100) " />
           </svg>
