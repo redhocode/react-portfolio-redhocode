@@ -11,14 +11,14 @@ export function NavBar() {
     
       {/* <link href="https://fonts.googleapis.com/css?family=Pixelify+Sans:regular,500,600,700" rel="stylesheet" /> */}
 <div className="container mx-auto">
-      <Navbar className="fixed left-0 z-10 w-full py-3 mx-auto bg-transparent shadow-sm outline-none right-1 top-1 lg:ml-30">
+      <Navbar className="left-0 z-10 w-full mx-auto bg-transparent shadow-sm outline-none right-1 lg:ml-30">
         <div className="flex flex-wrap items-center justify-between text-black gap-y-2">
           <a
             href="https://github.com/redhocode"
-            className="block font-sans text-base antialiased font-light leading-relaxed transition-opacity text-inherit opacity-80 hover:opacity-100"
+            className="block font-sans text-base font-light text-inherit opacity-80 "
           >
             <svg
-              className="w-10 h-10 animate-bounce"
+              className="w-10 h-10"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -33,7 +33,7 @@ export function NavBar() {
           <Typography
             as="a"
             href=""
-            className="mr-4 ml-2 cursor-pointer py-1.5 text-xl hover:scale-125 duration-100 ease-in-out sm:text-2xl md:text-l lg:text-2xl lg-max:text-xl font-semibold "
+            className="justify-end ml-2 mr-4 text-xl font-semibold sm:text-xl md:text-l lg:text-2xl lg-max:text-xl"
             style={textStyle}
         >
             Redhocode
