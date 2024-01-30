@@ -11,7 +11,7 @@ export function NavBar() {
     
       {/* <link href="https://fonts.googleapis.com/css?family=Pixelify+Sans:regular,500,600,700" rel="stylesheet" /> */}
 <div className="container mx-auto">
-      <Navbar className="fixed left-0 z-10 w-full mx-auto -mt-2 bg-transparent rounded-none shadow-sm outline-none right-1 lg:ml-30">
+      <Navbar className="fixed left-0 z-10 w-full mx-auto -mt-2 bg-transparent rounded-none shadow-sm outline-none right-1 lg:ml-30 xs:-mt-2 xs:pt-5 ">
         <div className="flex flex-wrap items-center justify-between text-black gap-y-2">
           <a
             href="https://github.com/redhocode"
