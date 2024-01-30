@@ -16,15 +16,15 @@ const Hero = () => {
           >
             <br className="block md:hidden" />
             <span className="relative">
-              <span className="h-20 pt-2 whitespace-nowrap text-brand-accent">
+              <span className="h-20 pt-2 antialiased whitespace-nowrap text-brand-accent">
                 Hello World
               </span>
-              <span className="{`${styles.cursor} absolute -bottom-0 left-0 -top-1 inline-block bg-white w-full animate-type will-change`}"></span>
+              {/* <span className="{`${styles.cursor} absolute -bottom-0 left-0 -top-1 inline-block bg-white w-full animate-type will-change`}"></span> */}
             </span>
           </h1>
 
           <h1
-            className="mb-4 text-4xl font-semibold leading-none tracking-tight text-black md:text-5xl lg:text-6xl"
+            className="mb-4 text-4xl tracking-tight text-black font-reguler md:text-5xl lg:text-6xl"
             style={textStyle}
           >
             Redhocode
@@ -38,9 +38,9 @@ const Hero = () => {
           
            <hr />
           <br />
-            <span className="mt-4 text-2xl font-semibold text-gray-700 lg:text-2xl md:text-xl sm:text-l">Spontan!!!</span>
+            {/* <span className="mt-4 text-2xl font-semibold text-gray-700 lg:text-2xl md:text-xl sm:text-l">Spontan!!!</span>
             <br />
-            <br />
+            <br /> */}
 
           <div className="flex flex-col items-center gap-2 mx-auto space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <a href="#about" className=" font-regular" style={textStyle}>
@@ -57,7 +57,7 @@ const Hero = () => {
               dark:focus:ring-gray-800 w-80 lg:w-80" style={textStyle}
             >
            
-              Uh...huy
+              Get Started
                 
             </button>
               </a>
