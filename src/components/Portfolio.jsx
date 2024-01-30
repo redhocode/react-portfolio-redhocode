@@ -14,7 +14,7 @@ const Portfolio = () => {
   return (
     <>
       <section id="portfolio" className="pt-10 pb-10 ">
-        <div className="container items-center mx-auto bg-gray-200 rounded-md">
+        <div className="container mx-auto bg-gray-200 rounded-md">
           <div className="w-full px-4 pt-4">
             <div className="max-w-xl mx-auto mb-10 text-center">
               <h1
@@ -33,8 +33,8 @@ const Portfolio = () => {
           </div>
 
           <div className="flex flex-wrap justify-center w-full px-4">
-            <div className="pt-2 m-2 mb-12">
-              <Card className="w-full max-w-sm mt-6">
+            <div className="p-4 mb-12 md:w-1/2 lg:w-1/3 xl:w-1/4">
+              <Card className="w-full h-full max-w-sm mt-6">
                 <CardHeader color="blue-gray" className="relative h-90">
                   <img
                     src={`${publicUrl}/p1.png`}
@@ -68,8 +68,8 @@ const Portfolio = () => {
               </Card>
             </div>
 
-            <div className="pt-2 m-2 mb-12">
-              <Card className="w-full max-w-sm mt-6">
+            <div className="p-4 mb-12 md:w-1/2 lg:w-1/3 xl:w-1/4">
+              <Card className="w-full h-full max-w-sm mt-6">
                 <CardHeader color="blue-gray" className="relative h-90">
                   <img
                     src={`${publicUrl}/p2.png`}
@@ -103,8 +103,8 @@ const Portfolio = () => {
               </Card>
             </div>
 
-            <div className="pt-2 m-2 mb-12">
-              <Card className="w-full max-w-sm mt-6">
+            <div className="p-4 mb-12 md:w-1/2 lg:w-1/3 xl:w-1/4">
+              <Card className="w-full h-full max-w-sm mt-6">
                 <CardHeader color="blue-gray" className="relative h-90">
                   <img
                     src={`${publicUrl}/p3.png`}
@@ -115,18 +115,53 @@ const Portfolio = () => {
                 </CardHeader>
                 <CardBody>
                   <Typography variant="h5" color="blue-gray" className="mb-2">
-                    flutter_rest_api_php
+                    App simple Flutter CRUD denagn api Php 
                   </Typography>
                   <Typography>
                     A new Flutter project CRUD Rest API (web Service). CRUD
-                    Member JKT48
+                    Member JKT48 yang menggunakan PHP native sebagai api.
+                    
+                  </Typography>
+                </CardBody>
+                <CardFooter className="pt-0 ">
+                  <Button>
+                   
+                    <a
+                      href="https://github.com/redhocode/flutter_crud_rest_api"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Rean more
+                    </a>
+                  </Button>
+                </CardFooter>
+              </Card>
+            </div>
+                      <div className="p-4 mb-12 md:w-1/2 lg:w-1/3 xl:w-1/4">
+              <Card className="w-full h-full max-w-sm mt-6">
+                <CardHeader color="blue-gray" className="relative h-90">
+                  <img
+                    src={`${publicUrl}/p5.png`}
+                    alt="card-image"
+                    height={"100%"}
+                    className="duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+                  />
+                </CardHeader>
+                <CardBody>
+                  <Typography variant="h5" color="blue-gray" className="mb-2">
+                    Simple App Stopwatch Vite React
+                  </Typography>
+                  <Typography>
+                   React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
                   </Typography>
                 </CardBody>
                 <CardFooter className="pt-0">
                   <Button>
                     {" "}
                     <a
-                      href="https://github.com/redhocode/flutter_crud_rest_api"
+                      href="https://github.com/redhocode/react-stopwatch"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
