@@ -11,14 +11,14 @@ export function NavBar() {
     
       {/* <link href="https://fonts.googleapis.com/css?family=Pixelify+Sans:regular,500,600,700" rel="stylesheet" /> */}
 <div className="container mx-auto">
-      <Navbar className="left-0 z-10 w-full mx-auto bg-transparent shadow-sm outline-none right-1 lg:ml-30">
+      <Navbar className="fixed left-0 z-10 w-full mx-auto -mt-2 bg-transparent rounded-none shadow-sm outline-none right-1 lg:ml-30">
         <div className="flex flex-wrap items-center justify-between text-black gap-y-2">
           <a
             href="https://github.com/redhocode"
             className="block font-sans text-base font-light text-inherit opacity-80 "
           >
             <svg
-              className="w-10 h-10"
+              className="w-10 h-10 animate-bounce"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
